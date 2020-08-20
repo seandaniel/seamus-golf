@@ -1,0 +1,55 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.7rem;
+  font-family: 'Rubik', sans-serif;
+  color: $primary-font-color;
+}
+
+.wrapper {
+  width: 37rem;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+.button {
+  display: inline-flex;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  padding: 1rem 3rem;
+  border: 1px solid $primary-font-color;
+  border-radius: .5rem;
+  transition: background .35s;
+  &:hover,
+  &:focus {
+    background: $secondary-color;
+  }
+}
+
+figure {
+  margin: 0;
+}
+
+.wrapper {
+  max-width: 115rem;
+  width: 95%;
+  margin: 0 auto;
+}
