@@ -226,6 +226,9 @@
     img {
       margin: 0 2.5rem 0 0;
     }
+    img:last-child {
+      margin: 0;
+    }
   }
 }
 
