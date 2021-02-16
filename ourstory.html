@@ -17,12 +17,25 @@
   <title>Seamus Golf</title>
 </head>
 
+<!-- input to toggle swideswipe nav -->
+<input type="checkbox" id="toggle" name="toggle">
+<!-- sideswipe navigation -->
+<nav class="sideswipe-nav">
+  <ul>
+    <li><button aria-label="Exit Navigation"><label for="toggle"><i class="fas fa-arrow-left"></i></label></button></li>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="ourstory.html">Our Story</a></li>
+    <li><a href="#">Headcovers</a></li>
+    <li><a href="#">Hand Forged Metals</a></li>
+  </ul>
+</nav>
+
 <body>
   <!-- header -->
   <div class="wrapper">
     <nav class="nav-flex">
       <h1><a aria-label="Home" href="index.html">Seamus Golf</a></h1>
-      <button aria-label="Open navigation"><i class="fas fa-bars"></i></button>
+      <button aria-label="Open navigation"><label for="toggle"><i class="fas fa-bars"></i></label></button>
       <!-- desktop nav -->
       <ul class="desktop-media-query_ul-flex">
         <li><a href="ourstory.html">Our Story</a></li>
